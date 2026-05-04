@@ -1,0 +1,40 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.heading {
+  font-family: 'Playfair Display', serif;
+}
+
+.luxury-card {
+  transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+}
+
+.luxury-card:hover {
+  transform: translateY(-25px) scale(1.03);
+  box-shadow: 0 50px 100px -20px rgba(92, 58, 33, 0.45);
+}
+
+.product-img {
+  transition: transform 1.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.luxury-card:hover .product-img {
+  transform: scale(1.18);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 0 45px rgba(198, 167, 106, 0.85);
+}
+
+/* Modal Styling */
+.size-btn {
+  transition: all 0.3s ease;
+}
+
+.size-btn.active {
+  background-color: #C6A76A;
+  color: #111111;
+  border-color: #C6A76A;
+}
